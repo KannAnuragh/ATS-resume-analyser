@@ -18,6 +18,7 @@ export const handleUpload = async (req, res) => {
 
   } catch (err) {
     console.log(err);
+    import("fs").then(fs => fs.appendFileSync("error.log", err.stack + "\n" + JSON.stringify(err) + "\n"));
     res.status(500).json({ error: "Error parsing file" });
   }
 };
