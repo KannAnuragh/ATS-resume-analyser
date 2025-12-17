@@ -178,7 +178,7 @@ export default function ATSDashboard() {
       >
         <div className="flex items-center gap-2 mb-12">
           <FileCheck className="w-6 h-6 text-emerald-500" />
-          <h1 className="text-xl font-bold text-gray-900">Fin Resume</h1>
+          <h1 className="text-xl font-bold text-gray-900">ATS Resume Analysis</h1>
         </div>
 
         <nav className="space-y-2">
@@ -272,7 +272,7 @@ export default function ATSDashboard() {
                         <Upload className="w-8 h-8 text-emerald-600 group-hover:text-white transition-colors" />
                       </div>
                       <div>
-                        <p className="text-lg font-medium text-gray-900 mb-1">Investment Banking</p>
+                        <p className="text-lg font-medium text-gray-900 mb-1"> Check Your ATS Score </p>
                         <p className="text-sm text-gray-500">Click to upload your resume (PDF or DOCX)</p>
                       </div>
                     </div>
@@ -302,7 +302,7 @@ export default function ATSDashboard() {
               </div>
 
               <div className="mb-6 px-4 py-2 bg-white rounded-lg border border-gray-200 inline-block">
-                <span className="text-gray-700">Investment Banking</span>
+                <span className="text-gray-700"> Resume Details </span>
               </div>
 
               {/* Scores */}
